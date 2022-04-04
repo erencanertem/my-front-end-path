@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- @TODO: Import Karla font from google fonts and apply it to the web page -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+  <title>Re:Coded</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://drive.google.com/uc?id=1ml1cDYnVse0DrPlzkG6tOuQOmDfX0_8z" alt="Re:Coded logo" class="logo">
+    <h1 class="title">Re:Coded</h1>
+    <p class="italic">Re:Coded is a non-profit tech organization preparing talented youth in conflict-affected areas
+      to enter the digital economy as software developers and tech entrepreneurs</p>
+  </header>
+  <section class="bootcamp">
+    <h2 class='align-right' style="text-align: center;">Re:Coded Front-End Web Development Bootcamp</h2>
+    <h3>What is our bootcamp</h2>
+      <!-- @TODO: Make every 'Front-End Web Development' sentence in the following article bold -->
+      <p>Our Front-End Web Development Bootcamp is designed to kickstart your career as junior web developer or as
+        an entrepreneur with a vision to build your own website, app or software solution.</p>
+      <p>As a non-profit organization we have partnered with Flatiron School in New York, one of the leading
+        coding schools in the world. That allows us to teach their Front-End Web Development course introducing
+        you to HTML and CSS. We provide additional
+        training on React, a library for building user interfaces maintained by Facebook and Instagram. And
+        during our program, you will learn JavaScript, all of which will allow you to build amazing websites and
+        accelerate your journey to becoming
+        a working Web Developer! </p>
+      <p>By the end of the program, you will have a portfolio of completed projects to highlight your
+        achievements. </p>
+      <p>The Front-End Web Development course will take approximately 3.5 months with 10 hours per week of
+        in-person training and 15-25 hours per week of self-study. </p>
+      <p>The last 1.5 month of the bootcamp will be dedicated to a final project to help you build your portfolio
+        of work. </p>
+      <p>Our programs are all in english.</p>
+      <h3>Who can join</h3>
+      <ol>
+        <li>People between the ages of 18 and 35 years. </li>
+        <li>A demonstrated passion for coding and technology. </li>
+        <li>The time and capacity to commit to a full coding bootcamp. Classes are three times per week in
+          person at one of our learning hubs. </li>
+        <li>An intermediate level of English comprehension. </li>
+        <li>The aptitude to succeed in the selection process. </li>
+      </ol>
+      <div class="buttons">
+        <!-- @TODO: Using CSS, try to provide multiple methods to display these divs in a row like the attached pictures.
+                    Keep one of the methods, and comment out the rest -->
+        <div class="infoDiv">
+          <button id="infoBtn">More Info</button>
+          <div id="dataDisplay"></div>
+        </div>
+        <div class="awesomeDiv">
+          <button id="awesomeBtn">I'm Awesome</button>
+          <div id="awesome" class="hidden">
+            <p><em>I'm awesome, I'm doing the js part</em></p>
+          </div>
+        </div>
+        <div class="searchDiv">
+          <form id='search'>
+            <input type="text" name="searchBox" id="searchBox" placeholder="search bootcamps">
+            <input type="submit" id="searchBtn" value="search">
+          </form>
+          <div id="searchResults"></div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div>
+      <!-- @TODO: Add the functionality to open the link in a new tab -->
+      <a href="https://www.facebook.com/recodedofficial" target="_blank"><img
+          src="https://drive.google.com/uc?id=1-yaPy5DZhbYsLxUP8YWjvlpIZdbzDXxl" alt="" class="socialIcon"></a>
+      <a href="https://www.instagram.com/recodedofficial/" target="_blank"><img
+          src="https://drive.google.com/uc?id=18b8F06ADRb6oGVuWosRYnPPOImNt6iCI" alt="" class="socialIcon"></a>
+      <a href="https://twitter.com/recodedofficial" target="_blank"><img
+          src="https://drive.google.com/uc?id=1vVXb5gSBxgwy1idaoPA6rDhc9leviMjx" alt="" class="socialIcon"></a>
+      <a href="https://www.linkedin.com/company/re-coded/" target="_blank"><img
+          src="https://drive.google.com/uc?id=1Rzvd49x5LKeb8yVEGgGfuNBKqN9LXpWE" alt="" class="socialIcon"></a>
+    </div>
+    <div>
+      <span>(&copy;) 2021. Re:Coded is a 501(&copy;)(3) non-profit corporation.</span>
+    </div>
+  </footer>
+  <!--
+        @TODO: Write JavaScript in the script tag below to add functionality to the 3 buttons as described below:
+        - When clicking the "I'm Awesome" button, display the content of '#awesome' div.
+        - When clicking the "I'm Awesome" button again, hide the content of '#awesome' div.
+        - When clicking "More Info" button, get the countries and bootcamps data from the JSON file `/data.json` and display them in the '#dataDisplay' div. 
+        - When clicking the "search" button, search the camps in the JSON file by country and display the search results in the '#searchResults' div  . */
+    -->
+  <script>
+    // write your JavaScript code here
+    // const awesomeEl = document.querySelector("#awesomeBtn");
+    // const awesomeDiv = document.querySelector("#awesome");
+    // const infoEl = document.getElementById("infoBtn");
+    // const infoDiv = document.getElementById("dataDisplay");
+    // const searchEl = document.getElementById("searchBtn");
+    // const searchInput = document.getElementById("searchBox");
+    // const resultDiv = document.getElementById("searchResults");
+    // const APIURL = "data.json";
+
+    // awesomeEl.addEventListener("click", openInfo);
+    // infoEl.addEventListener("click", showData);
+    // searchEl.addEventListener("submit", getData);
+
+
+    // function openInfo() {
+    //   awesomeDiv.classList.toggle("open");
+    // }
+
+    // function showData() {
+    //   fetch(APIURL)
+    //     .then(response => response.json())
+    //     .then(data => {
+    //       let countries = data.countries;
+    //       let bootcamps = data.bootcamps;
+    //       let infos = countries.concat(bootcamps);
+    //       let output = "<ul>";
+    //       for (let i = 0; i < infos.length; i++) {
+    //         output += "<li>" + infos[i] + "</li>";
+    //       }
+    //       output += "</ul>";
+    //       infoDiv.innerHTML = output;
+    //     })
+    // }
+
+
+    // When you wake up,try to take input.target and show up the camps array with for loop
+
+    // function showData(e) {
+    //   const xhr = new XMLHttpRequest();
+    //   const url = "/data.json"
+    //   xhr.open("GET", url, true);
+
+    //   xhr.onload = function() {
+    //     if(this.status === 200) {
+    //       const countries = JSON.parse(this.responseText);
+    //       let output = "<ul>";
+    //       for(let i in countries) {
+    //         output += "<li>" + countries[i] + "</li>";
+    //       }
+    //       output += "</ul>";     
+    //       infoDiv.innerHTML = output; 
+    //     }
+    //   }
+    //   xhr.send();
+    // }
+  </script>
+</body>
+
+</html>

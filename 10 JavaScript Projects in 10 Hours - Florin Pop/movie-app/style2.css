@@ -1,0 +1,135 @@
+body {
+  background-color: #eee;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  background: url("https://drive.google.com/uc?id=1ADdMAd8sSM1GxabjRUpJaqliyYQMxixu");
+  background-size: cover;
+  background-position: center;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin: 40px;
+}
+
+.title {
+  margin: 40px;
+  padding: 15px;
+  border: dotted #ccc 5px;
+  border-radius: 15px;
+}
+
+.italic {
+  margin: 40px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.bootcamp {
+  padding: 20px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.bootcamp p,
+li {
+  margin: 10px;
+}
+
+/* #awesome {
+  display: none;
+} */
+
+.hidden {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#searchBox {
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: #dda65f;
+}
+
+#searchBox:active {
+  border-color: #3a7ddd;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#infoBtn,
+#searchBtn,
+#awesomeBtn {
+  background-color: #dda65f;
+  /* @TODO: add border color to match the background color */
+  border: 1px solid #dda65f;
+  color: white;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#infoBtn:hover {
+  background-color: #3a7ddd;
+  border-color: #3a7ddd;
+}
+
+#searchBtn:hover {
+  background-color: #3a7ddd;
+  border-color: #3a7ddd;
+}
+
+#awesomeBtn:hover {
+  background-color: #3a7ddd;
+  border-color: #3a7ddd;
+}
+
+#infoBtn:active {
+  border-color: #3a7ddd;
+}
+
+#searchBtn:active {
+  border-color: #3a7ddd;
+}
+
+#awesomeBtn:active {
+  border-color: #3a7ddd;
+}
+
+
+
+/* @TODO: Make the mouse curser look like a hand when you hover over the buttons (#infoBtn, #searchBtn, #awesomeBtn) 
+and add backgound and border color of #3a7ddd*/
+
+
+.socialIcon {
+  width: 25px;
+  margin: 0 10px;
+}
