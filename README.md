@@ -1,4 +1,5 @@
-##My Front-End Path
+## My Front-End Path
+
 Hey Everyone,
 This is my very first article and i want to talk about my project studies except courses. When i am learning HTML,CSS and Javascript, i started my journey with a udemy course by Sadık Turan in my native language. After that continue with various courses by Brad Traversy, FreeCodeCamp, Scrimba,etc… But; If you really want to be a good developer, you have to make a lot of practices besides courses curriculums. At this article i want to talk about them.
 First, I will write name of project or website and used technologies and after that, I will share youtube links with you.
